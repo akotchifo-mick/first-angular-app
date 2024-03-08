@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NOTES } from '../notes';
-
+import { NgModule } from '@angular/core';
 @Component({
   selector: 'app-notes-list',
   standalone: true,
@@ -12,5 +12,9 @@ export class NotesListComponent {
 
   show(title: string) {
     alert(title);
+  }
+
+  login() {
+    alert('Welcome!');
   }
 }

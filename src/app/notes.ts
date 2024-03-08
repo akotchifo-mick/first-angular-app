@@ -6,7 +6,7 @@ export interface Note {
   export const NOTES: Note[] = [
     {
       id: 1,
-      title: 'Lorem ipsum',
+      title: 'Author 1',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {

@@ -1,14 +1,12 @@
-<p>notes-list works!</p>
 <div class="container">
-    <ul class="notes">
-      @for (note of notes; track $index) {
-      <li>
-        <button (click)="show(note.title)">
-          <span class="note-title">{{ note.title }}</span>
-          <span class="note-text">{{ note.text }}</span>
-        </button>
-      </li>
-      }
-    </ul>
-  </div>
-  
+  <ul class="notes">
+    @for (note of notes; track $index) {
+    <li>
+      <button (click)="login()">
+        <span class="note-title">{{ note.title }}</span>
+        <span class="note-text">{{ note.text }}</span>
+      </button>
+    </li>
+    }
+  </ul>
+</div>
